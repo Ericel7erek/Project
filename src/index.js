@@ -10,8 +10,6 @@ import HelloList from './HelloList'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <Hello greeting={'Hello React Ninja' }/> */}
-    {/* <CardList robots = {robots} /> */}
     <HelloList />
   </React.StrictMode>
 );
